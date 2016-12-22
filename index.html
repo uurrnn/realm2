@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Phaser - ES6 - Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #303030;
+        }
+        h1 {
+          text-align: center;
+          font-family: monospace;
+          color: #eee;
+          text-shadow: 0 1px black;
+          text-transform: uppercase;
+        }
+        .content {
+          margin: 50px auto 0;
+          width: 1000px;
+          height: 563px;
+          border: 15px solid tomato;
+          border-radius: 5px;
+          box-shadow: 0 1px 3px black;
+          padding: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Realm</h1>
+    <div id="content" class="content"></div>
+    <script src="dist/vendor.bundle.js"></script>
+    <script src="dist/bundle.js"></script>
+
+</body>
+
+</html>
